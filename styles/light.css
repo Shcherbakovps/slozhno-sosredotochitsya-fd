@@ -9,8 +9,46 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --main-text-font: 'IBM Plex Mono', sans-serif; 
+  --bg-image: url("../images/cover-image-light.png");
+  --bg-color: #fff1f7;
+  --main-text-color: #353430;
+  --decoration-color: #ff8dcb;
+  --button-color: #353430;
+  --button-hover-color: rgba(50, 49, 45, 0.4);
+  --brackets-color: #353430;
+  --title-text-color: #ffc2e6;
+  --shadow-title-color: #ff8dcb;
+  --shadow-title-color-footer: #ff0070;
+  --accent-text-color: #ffc2e6;
+  --subtitle-text-color: #353430;
+  --accent-subtitle-text-color: #353430;
+  --accent-subtitle-bg-color: #ff8dcb;
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+.theme-light .element__rec-logo {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url("../images/cover-image-light.png");
+    --bg-color: #fff1f7;
+    --main-text-color: #353430;
+    --decoration-color: #ff8dcb;
+    --button-color: #353430;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
+    --brackets-color: #353430;
+    --title-text-color: #ffc2e6;
+    --shadow-title-color: #ff8dcb;
+    --shadow-title-color-footer: #ff0070;
+    --accent-text-color: #ffc2e6;
+    --subtitle-text-color: #353430;
+    --accent-subtitle-text-color: #353430;
+    --accent-subtitle-bg-color: #ff8dcb;
+  }
+
+  .theme-auto .element__rec-logo {
+    display: none;
+  }
 }
