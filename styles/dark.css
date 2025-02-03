@@ -12,7 +12,7 @@
   --main-text-font: 'IBM Plex Mono', sans-serif;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --main-text-color: #f1b2f1;
+  --main-text-color: #f1b2ce;
   --decoration-color: #ff0070;
   --button-color: #ff0070;
   --button-hover-color: rgb(225 0 112 / 0.4);
@@ -29,7 +29,7 @@
   :root {
     --bg-image: url(../images/cover-image-dark.png);
     --bg-color: #000028;
-    --main-text-color: #f1b2f1;
+    --main-text-color: #f1b2ce;
     --decoration-color: #ff0070;
     --button-color: #ff0070;
     --button-hover-color: rgb(225 0 112 / 0.4);
