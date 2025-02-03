@@ -19,4 +19,9 @@
   --accent-subtitle-text-color: #000028;
   --accent-subtitle-bg-color: #ff0070;
   --main-text-font: 'IBM Plex Mono', sans-serif;
+  --mbs-mobile: 668px;
+  --mbs-tablet: 1024px;
+  --mbs-desktop: 768px;
+  --padding-mobile: 10px;
+  --padding-tablet-desktop: 20px;
 }
