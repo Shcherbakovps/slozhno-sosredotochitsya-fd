@@ -239,12 +239,13 @@
   text-shadow: 2px 2px 0 var(--shadow-title-color-footer, #ff0070);
 }
 
-@media (width >= 768px) { 
+@media (width >= 768px) {
   .header {
     margin-bottom: 20px;
     padding: var(--padding-tablet-desktop);
     min-block-size: var(--mbs-tablet);
   }
+
   .element__rec-logo {
     padding: var(--padding-tablet-desktop);
   }
