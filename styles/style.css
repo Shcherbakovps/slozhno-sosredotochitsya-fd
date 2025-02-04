@@ -194,7 +194,7 @@
 }
 
 .card-link:hover {
-  border-block-end: 1px solid #f1b2ce;
+  border-block-end: 1px solid var(--card-link-line-color);
 }
 
 .card-link:focus {
@@ -202,7 +202,7 @@
 }
 
 .card-link:focus-visible {
-  outline: 1px solid #f1b2ce;
+  outline: 1px solid var(--card-link-line-color);
 }
 
 /*IMAGES GALLERY*/

@@ -24,6 +24,7 @@
   --subtitle-text-color: #353430;
   --accent-subtitle-text-color: #353430;
   --accent-subtitle-bg-color: #ff8dcb;
+  --card-link-line-color: #353430;
 }
 
 .theme-light .element__rec-logo {
@@ -46,6 +47,7 @@
     --subtitle-text-color: #353430;
     --accent-subtitle-text-color: #353430;
     --accent-subtitle-bg-color: #ff8dcb;
+    --card-link-line-color: #353430;
   }
 
   .theme-auto .element__rec-logo {

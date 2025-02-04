@@ -23,6 +23,7 @@
   --subtitle-text-color: #ff0070;
   --accent-subtitle-text-color: #000028;
   --accent-subtitle-bg-color: #ff0070;
+  --card-link-line-color: #f1b2ce;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,5 +41,6 @@
     --subtitle-text-color: #ff0070;
     --accent-subtitle-text-color: #000028;
     --accent-subtitle-bg-color: #ff0070;
+    --card-link-line-color: #f1b2ce;
   }
 }
